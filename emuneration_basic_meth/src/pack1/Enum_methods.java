@@ -19,7 +19,7 @@ public class Enum_methods {
 		for (STREETS st : STREETS.values()){
 			System.out.println(st+" :"+ st.ordinal());
 		}
-		// the compareTo() returns an 'int' the ordinals of enumeration constant.
+		// the compareTo() returns an 'int', the ordinals of enumeration constant.
 		//That's the difference between the ordinals
 		System.out.println("\nNow let's use the compare()");
 		
